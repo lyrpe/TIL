@@ -1,0 +1,54 @@
+# 021 문자열 인덱싱
+letters = 'python'
+
+print(letters[0],letters[2])
+
+
+# 022 문자열 슬라이싱
+license_plate = "24가 2210"
+
+print(license_plate[4:8])
+print(license_plate[-4:])
+
+
+# 023 : 슬라이싱할 때 시작인덱스:끝인덱스:오프셋을 지정할 수 있습니다.
+string = '홀짝홀짝홀짝'
+
+print(string[::2])
+
+
+# 024 :
+string = "PYTHON"
+
+print(string[::-1])
+
+
+# 025 : replace
+ph_num = "010-1111-222"
+
+print(ph_num.replace("-"," "))
+
+
+# 026
+print(ph_num.replace("-",''))
+
+
+# 027 분할 및 출력
+url = "http://sharebook.kr"
+url_split = url.split(".")
+
+print(url_split)
+print(url_split[-1])
+
+# 028 문자열은 할당(assignment) 메서드 미지원
+# lang = 'python'
+# lang[0] = 'P'
+# print(lang)
+
+# 029
+string = 'abcd'
+print(string.replace('a','A'))
+
+# 030 : 문자열은 변경 할 수 없는 자료형
+string.replace('b','B')
+print(string)
