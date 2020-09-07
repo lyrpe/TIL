@@ -1,0 +1,45 @@
+# 041
+ticker = "Btc_Krw"
+
+print(ticker.upper())
+
+# 042
+print(ticker.lower())
+
+# 043
+a = "hello"
+a = a.capitalize()
+
+print(a)
+
+
+# 044 : 확장자 확인
+file_name = "보고서.xlsx"
+
+file_name.endswith("xlsx")
+
+print(file_name.endswith("xlsx"))
+
+# 045
+
+print(file_name.endswith(("xlsx","xls")))
+
+# 046 : 시작확인
+file_name2 = "2020_보고서.xlsx"
+print(file_name2.startswith("2020"))
+
+# 047 : split
+a= "hello world"
+print(a.split())
+
+# 048 : split
+ticker = "btc_krw"
+print(ticker.split("_"))
+
+# 049
+date = '2020-05-01'
+print(date.split("-"))
+
+# 050 : 오른쪽 공백 제거
+data = "232323    "
+print(data.rstrip())
