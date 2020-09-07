@@ -1,0 +1,42 @@
+# 051 : 리스트 생성
+movie_rank = ["닥터스트레인지","스플릿", "럭키"]
+
+print(movie_rank)
+
+# 052 : 리스트 추가
+movie_rank.append("배트맨")
+print(movie_rank)
+
+# 053 : 리스트 삽입
+movie_rank.insert(3,"슈퍼맨")
+print(movie_rank)
+
+# 054 : 리스트 삭제
+del movie_rank[2]
+print(movie_rank)
+
+#055 : 리스트 삭제
+del movie_rank[2]
+del movie_rank[2]
+print(movie_rank)
+
+#056 : 리스트 결합
+lang1 = ["C","C++","JAVA"]
+lang2 = ["Python","Go","C#"]
+
+langs = lang1+lang2
+print(langs)
+
+#057 : 리스트 최댓값/최솟값
+nums = [1, 2, 3, 4, 5, 6]
+print("max: ",max(nums))
+print("min: ",min(nums))
+
+#058 : 리스트 합
+print("sum: ", sum(nums))
+
+#059 : 리스트 카운팅
+print("len: ", len(nums))
+
+#060 : 리스트 평균
+print("avg: ", sum(nums)/len(nums))
