@@ -1,0 +1,53 @@
+# 031
+a = "3"
+b = "4"
+
+print(a+b)
+
+# 032
+print(a*3)
+
+# 033
+print('-'*80)
+
+# 034
+t1 = 'python'
+t2 = 'java'
+print((t1,t2)*3,sep='')
+print((t1+' '+t2+' ')*3)
+
+# 035 : %formatting 활용
+nm1 = '김민수'
+age1 = 10
+nm2 = '이철희'
+age2 = 13
+
+print('이름: '+ nm1 + ' 나이: '+ str(age1))
+print('이름: %s 나이 : %d'%(nm2,age2))
+
+# 036
+print("이름 : {} 나이 : {}".format(nm1,age1))
+
+# 037 f-string : 3.6 부터 지원
+print(f"이름 : {nm2} 나이 : {age2}")
+
+
+# 038 :
+상장주식수 = "5,969,782,550"
+주식수_int = int(상장주식수.replace(',',''))
+
+print(주식수_int,type(주식수_int))
+
+
+# 039 
+분기 = "2020/03(E) (IFRS 연결)"
+
+날짜 = 분기[0:7]
+
+print(날짜)
+
+
+# 040 : strip : 좌우 공백 제거
+data = "    삼성전자    "
+
+print(data.strip())
