@@ -1,0 +1,46 @@
+# 081 : star expression
+a, b, *c = (0,1,2,3,4,5)
+
+print(a)
+print(b)
+print(c)
+
+score = [1,2,3,4,5]
+*validation,_,_ = score
+print(validation)
+
+# 082 : 
+_,_,*valid2 = score
+print(valid2)
+
+# 083 :
+_,*valid3,_ = score
+print(valid3)
+
+# 084 : 딕셔너리 생성
+temp = {}
+print(temp)
+
+# 085 : 
+ice  = {"메로나":1000, "폴라포":1200, "빵빠레":1800}
+print(ice)
+
+# 086 : 딕셔너리 항목 추가
+ice["죠스바"] = 1200
+ice["월드콘"] = 1500
+print(ice)
+
+# 087 : 출력
+print("메로나 가격 : ",ice["메로나"])
+
+# 088 : 수정
+ice["월드콘"] = 900
+print(ice)
+
+# 089 : 삭제
+del ice["메로나"]
+print(ice)
+
+
+# 090 : 키 인덱싱 주의
+ice["누가바"]
