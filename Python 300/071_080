@@ -1,0 +1,43 @@
+# 071 : 튜플생성
+my_variable = ()
+print(my_variable,type(my_variable))
+
+# 072 : 튜풀 저장
+movie_rank = ("닥터 스트레인지","스플릿","럭키")
+
+# 073 : 한개 정수 입력시 인트로 정의 --> 쉼표 추가 입력해야 튜플로 인식함
+my_tuple = (1)
+print(my_tuple, type(my_tuple))
+
+my_tuple = (1,)
+print(my_tuple, type(my_tuple))
+
+# 074 : 튜플은 원소 값을 변경 할 수 없다
+
+# 075 : 편의 위해 괄호 없이도 동작
+t = 1,2,3,4
+print(t,type(t))
+
+# 076 : 튜플값 변경 불가 -> 재정의
+t = ('a','b','c')
+print(t)
+t = ('A','b','c')
+print(t)
+
+# 077 : 튜플->리스트 변환
+interest = ('삼성전사','LG','SK')
+inter_list = list(interest)
+print(inter_list)
+
+# 078 : 리스트->튜플 변환
+inter_tuple = tuple(inter_list)
+print(inter_tuple)
+
+# 079 : 튜플 언팩킹
+temp = ('aaa','bbb','ccc')
+a, b, c = temp
+print(a,b,c)
+
+# 080 : range
+data = tuple(range(2,100,2))
+print(data)
