@@ -1,0 +1,54 @@
+# 111 : 입력 
+#user = input("입력 : ")
+#print(user * 2)
+
+# 112
+# num = input("숫자를 1입력하세요")
+# print(int(num) +10 )
+
+# # 113
+# if (int(num)%2 == 0) :
+#     print("짝수")
+# else :
+#     print("홀수")
+
+# # 114
+# if int(num) > 255 :
+#     print(255)
+# else :
+#     print(int(num)+20)
+
+# # 115 상동
+
+# # 116
+# time = input("현재시간: ")
+# if time[-2:] == "00":
+#     print("정각 입니다.")
+# else:
+#     print("정각이 아닙니다.")
+
+# 117
+# fruit = ["사과","포도","홍시"]
+
+# user_fru = input("리스트에 있는 과일은? : ")
+
+# if user_fru in fruit :
+#     print("정답!")
+# else :
+#     print("리스트를 확인하세요")    
+
+
+# 118 상동
+
+# 119 딕셔너리 내 확인
+fruit2 = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+
+user_fru2 = input("딕셔너리에 있는 과일은? : ")
+
+if user_fru2 in fruit2.values() :
+    print("정답")
+else :
+    print("오답")
+
+    
+
