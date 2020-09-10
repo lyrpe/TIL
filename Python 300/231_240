@@ -1,0 +1,35 @@
+# 231
+def n_plus_1 (n) :
+    r = n + 1
+n_plus_1(3)
+
+# 232
+# def make_url(string) :
+#     url = "www." + string + ".com"
+#     return url
+
+def make_url(string) :
+    return "www." + string + ".com"
+print(make_url("ddd"))
+
+
+# 233
+def make_list (string) :
+    my_list = []
+    for 변수 in string :
+        my_list.append(변수)
+    return my_list
+
+# 234
+def pickup_even(items):
+    result = []
+    for item in items:
+        if item % 2 == 0:
+            result.append(item)
+    return result
+
+# 235 
+def convert_int (string) :
+    return int(string.replace(',', ''))
+
+# 236 ~ 240 : 코드 해독 테스트 (결과값 예측)
