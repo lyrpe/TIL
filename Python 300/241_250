@@ -1,0 +1,38 @@
+# 241
+import datetime
+import time
+import os
+# import numpy
+
+now = datetime.datetime.now()
+print(now)
+
+# 242
+print(now,type(now))
+
+# 243
+for day in range(5,0,-1):
+    delta = datetime.timedelta(days=day)
+    date = now - delta
+    print(date)
+
+# 244
+print(now.strftime("%H:%M:%S"))
+
+# 245
+print(now.strftime("%Y-%m-%d"))
+
+# 246
+# while True:
+#     print(now)
+#     time.sleep(1)
+
+
+# 247/8
+ret = os.getcwd()
+print(ret,type(ret))
+
+# 250
+
+for i in numpy.arange(0, 5, 0.1):
+    print(i)
