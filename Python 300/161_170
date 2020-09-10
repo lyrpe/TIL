@@ -1,0 +1,56 @@
+# 161
+for i in range(100):
+    print(i)
+
+# 162
+for i in range(49):
+    if (i+2002)%4 == 2:
+        print(i+2002)
+
+for i in range(2002,2051,4):
+    print(i)
+
+# 163
+for i in range(3,31,3):
+    print(i)
+
+# 164
+for i in range(100):
+    print(99-i)
+
+# 165
+for num in range(10) :
+    print(num / 10, num)
+
+# 166
+for i in range(1, 10) :
+    print (3, "x", i, " = ", 3 * i)
+
+# 167
+num = 3
+for i in range(1, 10, 2) :
+    print (num, "x", i, " = ", num * i)
+
+for i in range(1, 10) :
+    if i % 2 == 1 :
+        print (num, "x", i, " = ", num * i)
+
+# 168
+sum_num = 0
+for i in range(1,11):   
+    sum_num += i
+
+print(sum_num)
+
+# 169
+hab = 0
+for i in range(1, 11, 2):
+    hab += i
+print ("합 :", hab)
+
+# 170
+result = 1
+for i in range(1, 11) :
+    result *= i
+print(result)
+
