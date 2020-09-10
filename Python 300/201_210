@@ -1,0 +1,33 @@
+# 201 : 함수생성
+def print_coin():
+    print("비트코인")
+
+# 202 : 함수호출
+print_coin()
+
+# 203 : 204
+def print_coins():
+    for i in range(100):
+        print_coin()
+
+# 205 : 함수 정의 전 함수 호출 안됨
+
+# 206 : 207 : 208
+def message() :
+    print("A")
+    print("B")
+
+message()
+print("C")
+message()
+
+# 209 : 210
+def message1():
+    print("A")
+
+def message2():
+    print("B")
+    message1()
+
+message2()
+
