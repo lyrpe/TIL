@@ -1,0 +1,10 @@
+#291 : 300 : 파일처리
+# f = open("C:/Desktop/매수종목1.txt", mode="wt", encoding="utf-8")
+
+# f.write("005930\n")
+# f.write("005380\n")
+# f.write("035420")
+# f.close()
+
+
+* ==> 파일처리 폴더 문제로 깃허브내는 생략함.
